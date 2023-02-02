@@ -1,6 +1,6 @@
 Feature: Login functionality
 
-  Background: User on the TRAGOGO vytrack web page
+  Background: User on the TRAGOGO vytrack web page.
     * configure driver = { type: 'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe' }
     * driver 'https://qa2.vytrack.com/user/login'
     * maximize()
